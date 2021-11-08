@@ -1,0 +1,15 @@
+// Основные стили
+@import './config/variables';
+@import './base/base';
+@import './layout/layout';
+
+// Стили блоков
+@import './components/header';
+@import './components/home';
+@import './components/about';
+@import './components/steps';
+@import './components/products';
+@import './components/questions';
+
+// Дополнительные стили
+@import './components/buttons';
