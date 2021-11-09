@@ -22,6 +22,7 @@ body {
     margin: var(--header-height);
     background-color: var(--body-color);
     color: var(--text-color);
+    transition: .4s; // Для смены темы (Dark/Light)
 }
 
 button {

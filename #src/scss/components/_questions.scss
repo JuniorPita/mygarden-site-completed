@@ -3,6 +3,10 @@
 .questions {
     background-color: var(--first-color-lighten);
 
+    &__title {
+        color: #000;
+    }
+
     &__container {
         gap: 1.5rem;
         padding: 1.5rem 0;

@@ -26,21 +26,30 @@
     <title>My Garden</title>
     <!-- Подключение основных скриптов -->
     <script defer src="js/script.min.js"></script>
-    <!-- Подключение второстепенных скриптов -->
-    <script async src="js/scrollreveal.min.js"></script>
 </head>
 <body>
     <!-- Семантика страницы и подключение разных блоков к одному файлу -->
     <header class='header' id='header'>
         @@include('./html/sections/_header.html')
     </header>
+    <!-- Быстрый скролл вверх -->
+    <aside>
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+    </aside>
     <main class='main'>
         @@include('./html/sections/_home.html')
         @@include('./html/sections/_about.html')
         @@include('./html/sections/_steps.html')
         @@include('./html/sections/_products.html')
         @@include('./html/sections/_questions.html')
+        @@include('./html/sections/_contact.html')
     </main>
-    <footer></footer>
+    <footer class='footer section'>
+        @@include('./html/sections/_footer.html')
+    </footer>
+    <!-- Подключение второстепенных скриптов -->
+    <script src="js/scrollreveal.min.js"></script>
 </body>
 </html>
