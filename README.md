@@ -1,3 +1,16 @@
+This project use stack:
+• HTML (HTML5)
+• CSS (CSS3)
+• Gulp (Node.js)
+• JavaScript (ES6+)
+• ScrollReveal (JS)
+• FlexBox (CSS)
+• Grid (CSS)
+• SCSS (SASS)
+• БЭМ (BEM)
+• Media Queries (Responsive Development)
+• W3C (Validation)
+
 To open a finished website, follow these easy steps:
 1) Copy this repository to any empty folder to your computer with a file with the extension - .zip
 2) Unzip the given repository to the folder where you moved it earlier
